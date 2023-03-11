@@ -1,0 +1,115 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <!-- displays site properly based on user's device -->
+
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Lexend+Deca&display=swap"
+      rel="stylesheet"
+    />
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Big+Shoulders+Display:wght@700&family=Lexend+Deca&display=swap"
+      rel="stylesheet"
+    />
+    <link
+      rel="icon"
+      type="image/png"
+      sizes="32x32"
+      href="./images/favicon-32x32.png"
+    />
+    <link rel="stylesheet" href="style.css" />
+    <script src="https://cdn.tailwindcss.com"></script>
+    <title>Frontend Mentor | 3-column preview card component</title>
+
+    <!-- Feel free to remove these styles or customise in your own stylesheet 👍 -->
+    <style>
+      .attribution {
+        font-size: 11px;
+        text-align: center;
+      }
+      .attribution a {
+        color: hsl(228, 45%, 44%);
+      }
+      /* <script src="tailwind.config.js"></script> */
+    </style>
+  </head>
+  <body>
+    <!-- global conatiner -->
+    <main
+      class="flex flex-col items-center justify-center min-h-screen mt-6 md:flex-row sm:auto"
+    >
+      <!-- sedans -->
+      <div
+        class="bg-[#e38826] h-96 w-60 flex flex-col items-left justify-center space-y-2 space-x-6 md:rounded-l-lg"
+      >
+        <div class="pb-4 pl-4">
+          <img src="images/icon-sedans.svg" alt="" />
+        </div>
+        <h1 class="font-medium text-white uppercase text-3xl pb-4">Sedans</h1>
+        <p class="text-[#ffffff]/[.7] text-sm pr-4">
+          Choose a sedan for its affordability and excellent fuel economy. Ideal
+          for cruising in the city or on your next road trip.
+        </p>
+        <div class="pt-4 md:pt-12">
+          <button
+            class="bg-white text-[#e38826] rounded-full p-2 pl-8 pr-8 text-sm"
+          >
+            Learn More
+          </button>
+        </div>
+      </div>
+      <!-- suv -->
+      <div
+        class="bg-[#006970] h-96 w-60 flex flex-col items-left justify-center space-y-2 space-x-6"
+      >
+        <div class="pb-4 pl-4">
+          <img src="images/icon-suvs.svg" alt="" />
+        </div>
+        <h1 class="font-medium text-white uppercase text-3xl pb-4">SUVs</h1>
+        <p class="text-[#ffffff]/[.7] text-sm pr-4">
+          Take an SUV for its spacious interior, power, and versatility. Perfect
+          for your next family vacation and off-road adventures.
+        </p>
+        <div class="pt-4 md:pt-12">
+          <button
+            class="bg-white text-[#006970] rounded-full p-2 pl-8 pr-8 text-sm"
+          >
+            Learn More
+          </button>
+        </div>
+      </div>
+      <!-- luxury -->
+      <div
+        class="bg-[#004241] h-96 w-60 flex flex-col items-left justify-center space-y-2 space-x-6 md:rounded-r-lg"
+      >
+        <div class="pb-4 pl-4">
+          <img src="images/icon-luxury.svg" alt="" />
+        </div>
+        <h1 class="font-medium text-white uppercase text-3xl pb-4">LUXURY</h1>
+        <p class="text-[#ffffff]/[.7] text-sm pr-4">
+          Cruise in the best car brands without the bloated prices. Enjoy the
+          enhanced comfort of a luxury rental and arrive in style.
+        </p>
+        <div class="pt-4 md:pt-12">
+          <button
+            class="bg-white text-[#004241] rounded-full p-2 pl-8 pr-8 text-sm"
+          >
+            Learn More
+          </button>
+        </div>
+      </div>
+    </main>
+    <div class="attribution">
+      Challenge by
+      <a href="https://www.frontendmentor.io?ref=challenge" target="_blank"
+        >Frontend Mentor</a
+      >. Coded by <a href="#">Kunal</a>.
+    </div>
+  </body>
+</html>
